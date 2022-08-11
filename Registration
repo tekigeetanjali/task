@@ -1,0 +1,29 @@
+import React from "react";
+export default function form() {
+  return (
+    <section>
+      <div className="register">
+        <div className="col-1"></div>
+        <h2>sign-in</h2>
+        <span>Register</span>
+        <form id="form" className="flex flex-col">
+          <br />
+          <input type="text" placeholder="username" />
+          <br />
+          <br />
+          <input type="text" placeholder="password" />
+          <br />
+          <br />
+          <input type="text" placeholder="conform password" />
+          <br />
+          <br />
+          <input type="text" placeholder="mobile number" />
+          <br />
+          <br />
+          <button className="btn">Sign In</button>
+        </form>
+        <div className="col-2"></div>
+      </div>
+    </section>
+  );
+}
